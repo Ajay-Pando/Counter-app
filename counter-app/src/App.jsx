@@ -1,5 +1,6 @@
 import Counter from "./components/Counter"
 import Navbar from "./components/Navbar"
+import SignupForm from "./components/SignupForm"
 
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <Counter />
+      <SignupForm />
+      {/* <Counter /> */}
     </>
   )
 }
